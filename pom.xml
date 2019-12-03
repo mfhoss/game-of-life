@@ -495,4 +495,16 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://sonatypesemonewhac-1059574669.us-east-1.elb.amazonaws.com/repository/SAMPLE-REL/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://sonatypesemonewhac-1059574669.us-east-1.elb.amazonaws.com/repository/SAMPLE-SNAP/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
